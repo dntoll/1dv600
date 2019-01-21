@@ -49,6 +49,7 @@ The objective is to test the code that was implemented the last iteration.
 ## What to test and how.
 We intend to test UC1 by writing and running dynamic manual test-cases. We wait with testing UC2 until code for UC2 has been implemented.
 We also write automated unit tests for all [NameDAL](https://github.com/dntoll/1dv600/blob/master/Greeter/src/Greetings/NameDAL.java)-methods in the class [NameDALTest](https://github.com/dntoll/1dv600/blob/master/Greeter/tests/Greetings/NameDALTest.java). Each sut-method should have at least two tests.
+Finally we examine the code by static inspection to see how we can add unit tests to all classes and methods in the future.
 
 ## Time plan
 
@@ -57,6 +58,7 @@ We also write automated unit tests for all [NameDAL](https://github.com/dntoll/1
 | Manual TC     | 1h        | 55m    |
 | Unit tests    | 1h        | 56m |
 | Running manualtests    | 20m        | 5m |
+| Code inspection | 1h | 20m |
 | Test report     | 1h        | 5m |
 
 ## Manual Test-Cases
