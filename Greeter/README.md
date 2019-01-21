@@ -103,6 +103,7 @@ Precondition: There must NOT be a name.txt file in ./Greeter/data, remove it if 
 
 
 Test traceability matrix and success
+
 | Test      | UC1 | UC2  | 
 | --------- |:----:| :---:|
 | TC1.1     | 1/OK | 0    |
@@ -112,9 +113,11 @@ Test traceability matrix and success
 
 
 Automated unit test coverage and success
+
 | Test          | ConsoleView | GreetController  | Main | NameDAL |
 | ------------- |:----:| :---:|:---:|:---:|
 | NameDALTest   | - | -| - | 100%/OK |
 | COVERAGE & SUCCESS      | 0 | 0| 0 |  100%/OK |
 
 ### Comment
+
