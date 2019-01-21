@@ -34,12 +34,7 @@ Take two use cases that you identified in assignment 2, and create manual test c
 * Test-steps including test-data. This is an exact description of what the tester is supposed to do. "Click 'Send' button", "Write 'Daniel' in Name box" etc.
 * A description of the expected result that should happen if the system works as specified. This should also be exact description of the expected output. For example "The text 'Welcome Daniel' is shown on the screen"
 * Checkboxes if the test did succeed or fail. These are filled in when the test has been conducted.
-* A space for comments by the tester
-
-
-
-
-
+* A space for comments by the tester, fill this in also if you detect something during testing that should be noted.
 
 ### Rules for the Manual tests
 * To be approved, to be approved you must submit TWO test-cases that include all the above. 
@@ -50,11 +45,12 @@ Take two use cases that you identified in assignment 2, and create manual test c
 * For higher grade, include a test-matrix that clearly shows what test-cases are covering what requirement. 
 * For higher grade, focus on coverage, clarity, and test-traceability.
 
-
 ***
 
 ## Task 3, ­­ Unit tests
-Decide on one method(function) in your system with preferably simple input and output. Create two automated unit-tests for this method each in its own test method. The tests should be orthogonal (test different things). Also write one automated unit test of a method that is not yet complete, (perhaps the method only returns false). The test should use the incomplete but compiling method and "detect" that the code does not work (ie. this test should fail). 
+Decide on two methods in your system (with preferably simple input and output). Create two automated unit-tests for each method in a total of four test methods. The tests should be orthogonal (test different things). These tests should succeed.
+
+Also write one automated unit test of a method that is not yet complete, (perhaps the method only returns false). The test should use the incomplete but compiling method and "detect" that the code does not work (ie. this test should fail). The failing test should be able to succeed when the method is implemented. Try this out by changing the implementation to the correct one and run the tests. Before handing in comment the successful implementation out and keep the failing.
 
 I prefer the following format for your tests (pseudo code):
 ```
@@ -90,8 +86,8 @@ class MathHelperTests {
 
 ### Rules for the Automated tests
 * To be approved, you need four succeeding automated unit tests that are testing two methods used in the hangman sourceccode. 
-* To be approved, all tests must be useful and make make sense. There should be a bug for which the test fails. 
 * To be approved, you also need one failing automated unit test that is testing an unfinished method you added for this exercise. 
+* To be approved, all tests must be useful and make make sense. There should be a bug for which the test fails. 
 * To be approved, you must run all tests and take a screenshot of the test-result, and include that in your document-report. This should showcase that one test fail.
 * To be approved, include your automated unit-test-cases in the test-plan document under its own heading. 
 * To be approved, Make the code readable (perhaps best with screenshots from your editor).
