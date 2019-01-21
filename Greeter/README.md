@@ -121,3 +121,6 @@ Automated unit test coverage and success
 
 ### Comment
 
+All tests pass, next iteration we need to focus on UC2. 
+
+We examined the code and most classes require mocks to be testable.
