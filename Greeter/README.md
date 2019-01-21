@@ -116,8 +116,8 @@ Automated unit test coverage and success
 
 | Test          | ConsoleView | GreetController  | Main | NameDAL |
 | ------------- |:----:| :---:|:---:|:---:|
-| NameDALTest   | - | -| - | 100%/OK |
-| COVERAGE & SUCCESS      | 0 | 0| 0 |  100%/OK |
+| NameDALTest   | 0 | 0| 0 | 100%/OK |
+| COVERAGE & SUCCESS      | 0/NA | 0/NA | 0/NA |  100%/OK |
 
 ### Comment
 
