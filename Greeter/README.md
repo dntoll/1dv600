@@ -107,7 +107,7 @@ Test traceability matrix and success
 | --------- |:----:| :---:|
 | TC1.1     | 1/OK | 0    |
 | TC1.2     | 1/OK | 0    |
-| COVERAGE/SUCCESS   | 2/OK    | 0    |
+| COVERAGE & SUCCESS   | 2/OK    | 0    |
 
 
 
@@ -115,6 +115,6 @@ Automated unit test coverage and success
 | Test          | ConsoleView | GreetController  | Main | NameDAL |
 | ------------- |:----:| :---:|:---:|:---:|
 | NameDALTest   | - | -| - | 100%/OK |
-| COVERAGE/SUCCESS      | 0 | 0| 0 |  100%/OK |
+| COVERAGE & SUCCESS      | 0 | 0| 0 |  100%/OK |
 
 ### Comment
