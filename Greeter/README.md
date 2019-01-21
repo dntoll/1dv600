@@ -105,12 +105,12 @@ Precondition: There must NOT be a name.txt file in ./Greeter/data, remove it if 
 | --------- |:----:| :------:|
 | TC1.1     | 1/OK |         |
 | TC1.2     | 1/OK |         |
-| ------------- |:-----------:| :---------------:|:----:|:-------:|
 | Coverage       | 2    | 0       |
+
+
 
 
 | Test          | ConsoleView | GreetController  | Main | NameDAL |
 | ------------- |:-----------:| :---------------:|:----:|:-------:|
 | NameDALTest   | - | -| - | 100%/OK |
-| ------------- |:-----------:| :---------------:|:----:|:-------:|
 | Coverage      | 0 | 0| 0 |  100%/OK |
