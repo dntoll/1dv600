@@ -54,8 +54,10 @@ We also write automated unit tests for all [NameDAL](https://github.com/dntoll/1
 
 | Task          | Estimated | Actual  |
 | ------------- |:---------:| -----:|
-| Manual TC     | 1h        | 2h    |
-| Unit tests    | 1h        |   0.5h |
+| Manual TC     | 1h        | 55m    |
+| Unit tests    | 1h        | 56m |
+| Running manualtests    | 20m        | 5m |
+| Test report     | 1h        | 5m |
 
 ## Manual Test-Cases
 
@@ -97,3 +99,18 @@ Precondition: There must NOT be a name.txt file in ./Greeter/data, remove it if 
 * The system should show the text "A username must have at least one character, try again" 
 * System shows "Fill in a username:" and waits for input
 
+## Test Report
+
+| Test          | UC1 | UC2  | 
+| --------- |:----:| :------:|
+| TC1.1     | 1/OK |         |
+| TC1.2     | 1/OK |         |
+| ------------- |:-----------:| :---------------:|:----:|:-------:|
+| Coverage       | 2    | 0       |
+
+
+| Test          | ConsoleView | GreetController  | Main | NameDAL |
+| ------------- |:-----------:| :---------------:|:----:|:-------:|
+| NameDALTest   | - | -| - | 100%/OK |
+| ------------- |:-----------:| :---------------:|:----:|:-------:|
+| Coverage      | 0 | 0| 0 |  100%/OK |
