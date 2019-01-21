@@ -16,8 +16,8 @@ Your test plan should include:
 Information about the test effort in this iteration of your system, note that some of what it should include is specified in this assignment so read the entire assignment before planning.
 
 * What are the objectives of the testing in this iteration?
-* What to test? Include a short rationale for why you choose to test these objects and not others. (Look in Task 2, 3, 4 for this...)
-* How this testing is going to be done, what should be dynamically or statically tested, what testing techniques are going to be used. (Look in Task 2, 3, 4 for this...)
+* What to test? Include a short rationale for why you choose to test these objects and not others. (Look in Task 2, 3 for this...)
+* How this testing is going to be done, what should be dynamically or statically tested, what testing techniques are going to be used. (Look in Task 2, 3 for this...)
 * Make a time plan for this including time-estimations and measure and fill in actual time taken when you execute your plan. 
 
 An approved test-plan must include all of the items above.
@@ -36,9 +36,20 @@ Take two use cases that you identified in assignment 2, and create manual test c
 * Checkboxes if the test did succeed or fail. These are filled in when the test has been conducted.
 * A space for comments by the tester
 
-To be approved you must submit TWO test-cases that include all the above. For higher grade add several manual test-cases for each use-case. The tests should test different paths(scenarios) through the use-case and have different test-data. For higher grade also include a test-matrix that clearly shows what test-cases are covering what requirement. Focus on test-coverage, clarity, and test-traceability.
 
-Include your test-cases in the test-plan document under its own heading.
+
+
+
+
+### Rules for the Manual tests
+* To be approved, to be approved you must submit TWO test-cases that include all the above. 
+* To be approved, include your test-cases in the report document under its own heading.
+* To be approved, manual tests should be readable and make sense.
+* For higher grade, add several manual test-cases for each use-case. 
+* For higher grade, the tests should test different paths(scenarios) through the use-case and have different test-data. 
+* For higher grade, include a test-matrix that clearly shows what test-cases are covering what requirement. 
+* For higher grade, focus on coverage, clarity, and test-traceability.
+
 
 ***
 
@@ -73,17 +84,28 @@ class MathHelperTests {
        AssertEquals(expected, actual); //note could use AssertTrue for more compact code
    }
 }
-```
-To be approved you need two succeeding automated unit tests that are testing something in your system implementation, and that the test makes sense (If you introduce a bug, your test should detect this by failing the test). To be approved you also need one failing automated unit test that is testing the unfinished method you added for this exercise. You should take a screenshot of the test-result and include that in your report.
 
-Include your automated unit-test-cases in the test-plan document under its own heading. Make the code readable (perhaps best with screenshots from your editor).
-For a higher grade, you need to submit more unit tests covering your system. These tests should make sense.
+```
+
+
+### Rules for the Automated tests
+* To be approved, you need four succeeding automated unit tests that are testing two methods used in the hangman sourceccode. 
+* To be approved, all tests must be useful and make make sense. There should be a bug for which the test fails. 
+* To be approved, you also need one failing automated unit test that is testing an unfinished method you added for this exercise. 
+* To be approved, you must run all tests and take a screenshot of the test-result, and include that in your document-report. This should showcase that one test fail.
+* To be approved, include your automated unit-test-cases in the test-plan document under its own heading. 
+* To be approved, Make the code readable (perhaps best with screenshots from your editor).
+
+For higher grade, you need to submit more unit tests covering your system. These tests should also make sense.
+* Good: Two classes with a dependency have tests for all methods. Report is easy to read and reasonable. And above...
+* Excellent: All hangman sourcecode (all methods and all classes (at least 5 classes with dependencies) are covered by tests. Show this by running a Coverage tool and include screenshot of that. Report is excellent written. And above...
+
 
 ***
 
 
-## Include in the submission
-All text/diagrams must be handed in a single PDF file. The following should be included in the submission that you hand in via Moodle:
+### Include in the submission
+All text/diagrams must be handed in a single multipage PDF file. The following should be included in the submission that you hand in via Moodle:
 * Test plan
 * Manual Test cases with test result (they may fail)
 * Automated unit tests code screenshots, test result screenshots.
