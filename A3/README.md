@@ -8,6 +8,9 @@ Do not forget to work with your time log, make estimations, track actual time, l
 
 Remember that all assignments are individual!
 
+I have written an example application "Greeter" that can be used as an example for how to write Manual Tests from the use-cases as well as writing automated unit tests (in Java).
+https://github.com/dntoll/1dv600/tree/master/Greeter
+
 ## Task 1 ­­ Test Plan
 To get an overall structure to test, the first task is to create a test plan. Make use of your requirements from the previous assignment and possibly additional material from Assignment 2. Don’t forget that the quality requirements will require special treatment. 
 
