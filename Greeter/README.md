@@ -10,6 +10,7 @@ This is a simple application with two use-cases.
 
 ### UC1 Store a Name
 Precondition: none.
+
 Postcondition: a __name__ is stored
 
 #### Main scenario
@@ -23,6 +24,7 @@ Postcondition: a __name__ is stored
  * The system shows an error message
  * Goto Step 2. in Main Scenario
 
+#### Activity Diagram
 ![UC1](http://yuml.me/10e85680.png) http://yuml.me
 
 ### UC2 Be Greeted
@@ -38,6 +40,7 @@ Postcondition: A user has been greeted
  * Goto "UC1 Store a Name"
  * Goto Step 2. in Main scenario
 
+#### Activity Diagram
 ![UC1](http://yuml.me/df63b63e.png) http://yuml.me
 
 
@@ -65,6 +68,7 @@ Finally we examine the code by static inspection to see how we can add unit test
 
 ### TC1.1 Store name successful
 Use case: UC1 Store a Name
+
 Scenario: Store name successful
 
 ![Scenario](http://yuml.me/567ad1fe.png)
@@ -84,11 +88,12 @@ Precondition: There must NOT be a name.txt file in ./Greeter/data, remove it if 
 
 ### TC1.2 Store empty name force reprompt
 Use case: UC1 Store a Name
-Scenario: Store empty name force reprompt
+
+Scenario: Store empty name force reprompt. The alternate scenario where the user enters an empty username and is forced to enter a new username.
 
 ![Scenario](http://yuml.me/ad6e0e55.png)
 
-The alternate scenario where the user enters an empty username and is forced to enter a new username. 
+ 
 
 Precondition: There must NOT be a name.txt file in ./Greeter/data, remove it if its there.
 
