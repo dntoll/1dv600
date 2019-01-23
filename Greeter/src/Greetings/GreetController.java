@@ -25,7 +25,7 @@ public class GreetController {
         }
     }
 
-    private void enterName() {
+    private void enterName() throws IOException {
         view.showEnterGreetingMessage();
         String newName = view.getName();
         try {
