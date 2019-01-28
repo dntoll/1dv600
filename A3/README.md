@@ -28,7 +28,7 @@ An approved test-plan must include all of the items above.
 ***
 
 ## Task 2, ­­ Manual Test Cases using the client application
-Take two use cases that you identified in assignment 2, and create manual test cases that are using the console application. Describe what it is you are going to test, how you are going to do it and what outcome you expect from different tests. The test case should include.
+Take two use cases that you identified in assignment 2, and create manual test cases that are using the applications interface. Describe what it is you are going to test, how you are going to do it and what outcome you expect from different tests. The test case should include.
 
 * Name and id of the test-case
 * Reference to what requirement (use-case) that is tested
@@ -109,3 +109,5 @@ All text/diagrams must be handed in a single multipage PDF file. The following s
 * Manual Test cases with test result (they may fail)
 * Automated unit tests code screenshots, test result screenshots.
 * A short reflection (100 words)
+
+Note that all the above goes into one readable PDF file. 
