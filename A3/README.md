@@ -105,9 +105,12 @@ For higher grade, you need to submit more unit tests covering your system. These
 
 ### Include in the submission
 All text/diagrams must be handed in a single multipage PDF file. The following should be included in the submission that you hand in via Moodle:
-* Test plan
-* Manual Test cases with test result (they may fail)
-* Automated unit tests code screenshots, test result screenshots.
+* Start the pdf document with information about you (Name, lnu-email address and a link to your GitHub repo)
+* The pdf should include the test plan.
+* The pdf should include Manual Test cases with test result (they may fail)
+* The pdf should include Automated unit test code screenshots, test result screenshots, and screenshots from coverage-tool if you used one.
 * A short reflection (100 words)
 
 Note that all the above goes into one readable PDF file. 
+Hand in the PDF file named "Test.pdf".
+Your source code, and documents from previous iterations should be available in your GitHub repository which you linked to in your pdf.
