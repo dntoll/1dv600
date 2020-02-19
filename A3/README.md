@@ -28,7 +28,7 @@ An approved test-plan must include all of the items above.
 ***
 
 ## Task 2, ­­ Manual Test Cases using the client application
-Take two use cases that you identified in assignment 2, and create manual test cases that are using the applications interface. Describe what it is you are going to test, how you are going to do it and what outcome you expect from different tests. The test case should include.
+Take two use cases that you identified in assignment 2, and create manual test cases for these two that are using the applications interface. Describe what it is you are going to test, how you are going to do it and what outcome you expect from different tests. The test case should include.
 
 * Name and id of the test-case
 * Reference to what requirement (use-case) that is tested
@@ -40,20 +40,20 @@ Take two use cases that you identified in assignment 2, and create manual test c
 * A space for comments by the tester, fill this in also if you detect something during testing that should be noted.
 
 ### Rules for the Manual tests
-* To be approved, to be approved you must submit TWO test-cases that include all the above. 
+* To be approved, to be approved you must submit TWO test-cases that include all the above for two different use-cases (one each). 
 * To be approved, include your test-cases in the report document under its own heading.
-* To be approved, manual tests should be readable and make sense.
-* For higher grade, add several manual test-cases for each use-case. 
+* To be approved, manual tests should be understandable (the reader should be able to understand how to run the test) and make sense (be motivated, have value, is realistic)
+* For higher grade, add more manual test-cases for each use-case. Each should test different things.
 * For higher grade, the tests should test different paths(scenarios) through the use-case and have different test-data. 
-* For higher grade, include a test-matrix that clearly shows what test-cases are covering what requirement. 
-* For higher grade, focus on coverage, clarity, and test-traceability.
+* For higher grade, include a test-matrix that clearly shows what test-cases are covering what requirements. 
+* For higher grade, focus on coverage (all paths taken), clarity(understandability), and test-traceability(each test is connected to a use-case).
 
 ***
 
-## Task 3, ­­ Unit tests
-Decide on two methods in your system (with preferably simple input and output). Create two automated unit-tests for each method in a total of four test methods. The tests should be orthogonal (test different things). These tests should succeed.
+## Task 3, Unit tests
+Decide on two methods(or functions) in your system that has simple input and simple output. If no code is available or your code is too hard to test, write new methods for this assignment, that you should be able to use later. For example a method "int getNumberofCharactersLeftToFind(String allInput, String hiddenWord)" that takes two strings as input and returns a number. Create two automated unit-tests for each method (for a total of four test methods). The tests should be orthogonal (test different things) and you should be able to manipulate the tested method(by for example adding or removing code) so that these tests can fail independently. When you run these tests against your code all four tests should succeed.
 
-Also write one automated unit test of a method that is not yet complete, (perhaps the method only returns false). The test should use the incomplete but compiling method and "detect" that the code does not work (ie. this test should fail). The failing test should be able to succeed when the method is implemented. Try this out by changing the implementation to the correct one and run the tests. Before handing in comment the successful implementation out and keep the failing.
+Also write one automated unit test of a method that is not yet complete, (Example: right now the method only returns false, but should be able to return true for some inputs). The test should use the incomplete but compiling method and "detect" that the code does not work (ie. this test should fail since the code is not complete). The failing test should be able to succeed when the method is implemented. Try this out by changing the implementation to the correct one and run the tests. Before handing in comment the successful implementation out and keep the failing.
 
 I prefer the following format for your tests (pseudo code):
 ```
@@ -88,14 +88,14 @@ class MathHelperTests {
 
 
 ### Rules for the Automated tests
-* To be approved, you need four succeeding automated unit tests that are testing two methods used in the hangman sourceccode. 
-* To be approved, you also need one failing automated unit test that is testing an unfinished method you added for this exercise. 
-* To be approved, all tests must be useful and make make sense. There should be a bug for which the test fails. 
-* To be approved, you must run all tests and take a screenshot of the test-result, and include that in your document-report. This should showcase that one test fail.
-* To be approved, include your automated unit-test-cases in the test-plan document under its own heading. 
+* To be approved, you need at least four succeeding automated unit tests that are testing two methods used in the hangman sourceccode. All four tests should potentially be able to fail independently for different versions of the system.
+* To be approved, you also need one failing automated unit test that is testing an unfinished method you added for this exercise. The unfinished method should contain commented out code that makes the test succeed.
+* To be approved, all tests must be useful and make make sense. One should be able to create a bug for which each test fails. 
+* To be approved, you must run all tests and take a screenshot of the test-result, and include that in your document-report. This should showcase that one test fail and four tests succeed.
+* To be approved, include readable screenshots of your automated unit-test-cases in the test-plan document under its own heading, as subtext include "link" to actual test-code in your repository. 
 * To be approved, Make the code readable (perhaps best with screenshots from your editor).
 
-For higher grade, you need to submit more unit tests covering your system. These tests should also make sense.
+For higher grade, you need to submit more unit tests covering your system. These tests should also make sense(be able to fail independently from the other tests).
 * Good: Two classes with a dependency have tests for all methods. Report is easy to read and reasonable. And above...
 * Excellent: All hangman sourcecode (all methods and all classes (at least 5 classes with dependencies) are covered by tests. Show this by running a Coverage tool and include screenshot of that. Report is excellent written. And above...
 
@@ -104,13 +104,13 @@ For higher grade, you need to submit more unit tests covering your system. These
 
 
 ### Include in the submission
-All text/diagrams must be handed in a single multipage PDF file. The following should be included in the submission that you hand in via Moodle:
+All text/diagrams must be handed in a single multipage PDF file called "Test.pdf". The following should be included in the submission that you hand in in your gitlab repository root directory.
 * Start the pdf document with information about you (Name, lnu-email address and a link to your GitHub repo)
 * The pdf should include the test plan.
-* The pdf should include Manual Test cases with test result (they may fail)
+* The pdf should include Manual Test cases with test result (these may fail)
 * The pdf should include Automated unit test code screenshots, test result screenshots, and screenshots from coverage-tool if you used one.
 * A short reflection (100 words)
 
 Note that all the above goes into one readable PDF file. 
-Hand in the PDF file named "Test.pdf".
-Your source code, and documents from previous iterations should be available in your GitHub repository which you linked to in your pdf.
+Your source code, and documents from previous iterations should be available in your git repository which you linked to in your pdf.
+Create an issue as the last assignment, name issue Assignment 3.
