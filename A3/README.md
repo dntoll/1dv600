@@ -34,7 +34,7 @@ Take two use cases that you identified in assignment 2, and create manual test c
 * Reference to what requirement (use-case) that is tested
 * Short description of what is tested and why.
 * Preconditions that need to be fulfilled before this test is can be started (can be other test-cases or things like "Server must be started")
-* Test-steps including test-data. This is an exact description of what the tester is supposed to do. "Click 'Send' button", "Write 'Daniel' in Name box" etc.
+* Test-steps including test-data. This is an exact description of what the tester is supposed to do. "Click 'Send' button". Make sure to be clear and unambigous! For example dont write things like "enter a name", specify the name! Write "By keyboard write 'Daniel' in name-box so that each time the test is done, its done in the exact same way.
 * A description of the expected result that should happen if the system works as specified. This should also be exact description of the expected output. For example "The text 'Welcome Daniel' is shown on the screen"
 * Checkboxes if the test did succeed or fail. These are filled in when the test has been conducted.
 * A space for comments by the tester, fill this in also if you detect something during testing that should be noted.
