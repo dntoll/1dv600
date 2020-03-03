@@ -12,7 +12,7 @@ I have written an example application, "Greeter", that can be used as an example
 https://github.com/dntoll/1dv600/tree/master/Greeter
 
 ## Task 1: Test Plan
-To get an overall structure to test, the first task is to create a test plan. Make use of your requirements (and possibly additional material as needed) from the previous assignment. Don’t forget that the quality requirements will require special treatment. 
+To get an overall structure to test, the first task is to create a test plan. Make use of your requirements (and possibly additional material as needed) from the previous assignment. 
 
 Your test plan should include:
 
