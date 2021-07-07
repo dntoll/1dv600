@@ -21,24 +21,25 @@ Postcondition: a __name__ is stored
 
 #### Alternate scenarios
 * 3a The user provides an empty name
- * The system shows an error message
- * Goto Step 2. in Main Scenario
+* The system shows an error message
+* Goto Step 2. in Main Scenario
 
 #### Activity Diagram
 ![UC1](http://yuml.me/10e85680.png) http://yuml.me
 
 ### UC2 Be Greeted
 Precondition: none.
+
 Postcondition: A user has been greeted
 
 #### Main scenario
-* 1. The user starts the greeter application
-* 2. The system shows a greeting message including the __name__ and the current date.
+1. The user starts the greeter application
+2. The system shows a greeting message including the __name__ and the current date.
  
 #### Alternate scenarios
 * 2a The user has not stored a name
- * Goto "UC1 Store a Name"
- * Goto Step 2. in Main scenario
+* Goto "UC1 Store a Name"
+* Goto Step 2. in Main scenario
 
 #### Activity Diagram
 ![UC1](http://yuml.me/df63b63e.png) http://yuml.me
